@@ -23,6 +23,7 @@
     transition: background 300ms ease;
     img {
         width: 30%;
+        box-shadow: 2px 3px 8px rgb(70, 70, 70, 0.5);
     }
     &:hover {
         background-color: rgb(223, 242, 255);
@@ -32,10 +33,11 @@
 .song-description {
     padding-left: 1rem;
     h3 {
-        font-size: 1rem;
+        font-size: 1.4rem;
+        color: rgb(50, 50, 50);
     }
     h4{
-        font-size: 0.7rem;
+        font-size: 1rem;
     }
 }
 
